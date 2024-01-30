@@ -1,0 +1,126 @@
+﻿ body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #E0E8FF;
+    background-image: url('pattern-background-desktop.svg');
+    background-repeat:no-repeat;
+    background-size: contain;
+} 
+
+.white-box {
+    width: 481px;
+    height: 470px;
+    background-color: #ffffff;
+    border-radius: 0 0 20px 20px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    top: 0;
+    left: 0;
+    box-shadow: 0 22px 4px -1px rgba(128, 128, 128, 0.1);
+}
+
+.hero{
+    width: 481px;
+    height: 244px;
+    border-radius: 20px 20px 1px 1px;
+    margin-bottom: 715px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.summary {
+    font-family: 'Red Hat Display', Roboto, 'Open Sans';
+    font-weight: 900;
+    margin-bottom: 440px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.message {
+    font-family: 'Red Hat Display', Roboto, 'Open Sans';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: darkgray;
+    margin: -750px 60px 30px 60px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.plan-selection {
+    width: 348px;
+    height: 120px;
+    background-color: #F8F9FE;
+    border-radius: 10px;
+    margin-top: -560px;
+    margin-left: 65px;
+}
+
+.icon {
+    margin-left: 25px;
+    margin-top: 35px;
+}
+
+.plan {
+    margin-left: 100px;
+    margin-top: -55px;
+    font-family: 'Red Hat Display', Roboto, 'Open Sans';
+    font-weight: 900;
+    font-size: 18px;
+    color: #222A4D;
+}
+
+.price {
+    margin-left: 100px;
+    margin-top: -10px;
+    font-family: 'Red Hat Display', Roboto, 'Open Sans';
+    font-weight: 500;
+    font-size: 18px;
+    color: darkgrey;
+}
+
+.change {
+    margin-left: 270px;
+    margin-top: -55px;
+    font-family: 'Red Hat Display', Roboto, 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* mouse over link */
+a:hover {
+    filter: brightness(0.5);
+}
+
+.payment {
+    width: 348px;
+    height: 52px;
+    background-color: #382AE1;
+    border-radius: 10px;
+    margin-top: -330px;
+    margin-left: 65px;
+    box-shadow: 0 22px 4px -1px rgba(56, 42, 225, 0.1);
+}
+
+.proceed {
+    text-align: center;
+    font-family: 'Red Hat Display', Roboto, 'Open Sans';
+    font-weight: bold;
+    color: white;
+}
+
+.cancel {
+    text-align: center;
+    font-family: 'Red Hat Display', Roboto, 'Open Sans';
+    font-weight: bold;
+    color: #7A849B;
+    margin-top: -180px;
+}
+
+
+
